@@ -5,6 +5,10 @@
 </head>
 <body>
 <svg></svg>
-<script></script>
+<script>
+  function newArt(type,input) {
+  document.getElementsByTagName("svg")[0].innerHTML+="<"+type+">"+input+"</"+type+">";
+  }
+  </script>
 </body>
 </html>
